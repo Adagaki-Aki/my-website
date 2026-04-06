@@ -30,6 +30,20 @@ payload:
   - DOMAIN-SUFFIX,muvluv-girls-garden.com
   - DOMAIN,d3mya90gbacu0m.cloudfront.net
   - DOMAIN,dz87n5pasv7ep.cloudfront.net
+
+  # ==================== 补充的第三方SDK和游戏域名（所有漏网之鱼）====================
+  # Google Firebase 日志上报（DMM App 统计/崩溃报告）
+  - DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com
+
+  # Airship（Urban Airship）用户分析 & 推送 SDK
+  - DOMAIN-SUFFIX,urbanairship.com
+
+  # AppsFlyer 移动分析 SDK（Fanza 游戏常用，用于事件追踪）
+  - DOMAIN-SUFFIX,appsflyersdk.com
+
+  # Fanza 游戏《恋ひめたせん_X》官方 CDN（prod-cdn-dmm + prod 子域）
+  - DOMAIN-SUFFIX,koihimetaise n.com
+
   # 补充的 IP（强烈建议）
   - IP-CIDR,125.6.189.7/32
   - IP-CIDR,203.104.209.7/32
