@@ -1,0 +1,56 @@
+payload:
+  # =========================
+  # DMM / FANZA
+  # =========================
+  - DOMAIN-SUFFIX,dmm.co.jp
+  - DOMAIN-SUFFIX,dmm.com
+  - DOMAIN-SUFFIX,dmmgames.com
+  - DOMAIN-SUFFIX,dmmapis.com
+
+  # DMM Game Player
+  - DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com
+
+  # =========================
+  # Princess Connect Re:Dive
+  # =========================
+  - DOMAIN-SUFFIX,priconne-redive.jp
+  - DOMAIN-SUFFIX,api-priconne-redive.cygames.jp
+  - DOMAIN,api-common01.cygames.jp
+
+  # =========================
+  # Mist Train Girls
+  # =========================
+  - DOMAIN-SUFFIX,mist-train-girls.com
+  - DOMAIN-SUFFIX,mist-train-girls.azurefd.net
+  - DOMAIN-SUFFIX,fd-misttrain-prod.azurefd.net
+
+  # =========================
+  # Deep One
+  # =========================
+  - DOMAIN-SUFFIX,deepone-online.com
+
+  # =========================
+  # Twinkle Star Knights
+  # =========================
+  - DOMAIN-SUFFIX,twinkle-star-knights.com
+
+  # =========================
+  # Muv-Luv Girls Garden
+  # =========================
+  - DOMAIN-SUFFIX,muvluv-girls-garden.com
+
+  # =========================
+  # Koihime Taisen
+  # =========================
+  - DOMAIN-SUFFIX,koihimetaisen.com
+  # DMM 登录
+- DOMAIN-SUFFIX,dmm.com
+- DOMAIN-SUFFIX,dmm.co.jp
+- DOMAIN-SUFFIX,dmmgames.com
+- DOMAIN-SUFFIX,dmmapis.com
+
+# Cygames CDN（PCR 更新时偶尔会用到）
+- DOMAIN-SUFFIX,cygames.jp
+
+# Azure CDN（Mist Train 等部分游戏）
+- DOMAIN-SUFFIX,azurefd.net
