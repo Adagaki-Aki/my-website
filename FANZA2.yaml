@@ -30,7 +30,7 @@ payload:
   - DOMAIN-SUFFIX,deepone-online.com
 
   # =========================
-  # Twinkle Star Knights
+  # 闪耀星骑士
   # =========================
   - DOMAIN-SUFFIX,twinkle-star-knights.com
 
@@ -43,14 +43,18 @@ payload:
   # Koihime Taisen
   # =========================
   - DOMAIN-SUFFIX,koihimetaisen.com
-  # DMM 登录
-- DOMAIN-SUFFIX,dmm.com
-- DOMAIN-SUFFIX,dmm.co.jp
-- DOMAIN-SUFFIX,dmmgames.com
-- DOMAIN-SUFFIX,dmmapis.com
 
-# Cygames CDN（PCR 更新时偶尔会用到）
-- DOMAIN-SUFFIX,cygames.jp
+  # =========================
+  # 少女艺术奇谭
+  # =========================
+  - DOMAIN-SUFFIX,girlscreation-r.com
 
-# Azure CDN（Mist Train 等部分游戏）
-- DOMAIN-SUFFIX,azurefd.net
+  # =========================
+  # Cygames CDN
+  # =========================
+  - DOMAIN-SUFFIX,cygames.jp
+
+  # =========================
+  # Azure CDN
+  # =========================
+  - DOMAIN-SUFFIX,azurefd.net
