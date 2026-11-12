@@ -1,60 +1,86 @@
 payload:
-  # =========================
-  # DMM / FANZA
-  # =========================
-  - DOMAIN-SUFFIX,dmm.co.jp
-  - DOMAIN-SUFFIX,dmm.com
-  - DOMAIN-SUFFIX,dmmgames.com
-  - DOMAIN-SUFFIX,dmmapis.com
 
-  # DMM Game Player
-  - DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com
+  # ==========================================
+  # DMM / FANZA 平台
+  # ==========================================
 
-  # =========================
-  # Princess Connect Re:Dive
-  # =========================
-  - DOMAIN-SUFFIX,priconne-redive.jp
-  - DOMAIN-SUFFIX,api-priconne-redive.cygames.jp
-  - DOMAIN,api-common01.cygames.jp
+  - DOMAIN-SUFFIX,dmm.co.jp                  # DMM 日本官网、FANZA、视频服务
+  - DOMAIN-SUFFIX,dmm.com                    # DMM 国际域名、DMM TV 等服务
+  - DOMAIN-SUFFIX,dmmgames.com               # DMM GAMES 游戏平台
+  - DOMAIN-SUFFIX,dmmapis.com                # DMM API 接口
+  - DOMAIN-SUFFIX,dmm-extension.com          # DMM 扩展服务
+  - DOMAIN-SUFFIX,dmmrex.com                 # DMM REX 相关服务
 
-  # =========================
-  # Mist Train Girls
-  # =========================
-  - DOMAIN-SUFFIX,mist-train-girls.com
-  - DOMAIN-SUFFIX,mist-train-girls.azurefd.net
-  - DOMAIN-SUFFIX,fd-misttrain-prod.azurefd.net
+  # DMM Game Player 日志
+  - DOMAIN,firebaselogging-pa.googleapis.com # Firebase 日志上报
 
-  # =========================
-  # Deep One
-  # =========================
-  - DOMAIN-SUFFIX,deepone-online.com
 
-  # =========================
-  # 闪耀星骑士
-  # =========================
-  - DOMAIN-SUFFIX,twinkle-star-knights.com
+  # ==========================================
+  # DMM / FANZA 视频服务
+  # ==========================================
 
-  # =========================
+  - DOMAIN-SUFFIX,videomarket.jp             # VideoMarket 视频服务
+  - DOMAIN-SUFFIX,p-smith.com                # DMM 视频相关依赖
+  - DOMAIN,vmdash-cenc.akamaized.net         # 视频加密传输 CDN
+  - DOMAIN,img.vm-movie.jp                   # 视频图片及缩略图资源
+
+
+  # ==========================================
+  # Princess Connect Re:Dive / 公主连结
+  # ==========================================
+
+  - DOMAIN-SUFFIX,priconne-redive.jp         # 公主连结官方网站及游戏服务
+  - DOMAIN-SUFFIX,api-priconne-redive.cygames.jp # 公主连结游戏 API
+  - DOMAIN,api-common01.cygames.jp           # Cygames 公共 API
+
+
+  # ==========================================
+  # Mist Train Girls / ミストトレインガールズ
+  # ==========================================
+
+  - DOMAIN-SUFFIX,mist-train-girls.com       # Mist Train Girls 游戏服务
+  - DOMAIN-SUFFIX,mist-train-girls.azurefd.net # Mist Train Girls Azure CDN
+  - DOMAIN-SUFFIX,fd-misttrain-prod.azurefd.net # Mist Train Girls 生产环境 CDN
+
+
+  # ==========================================
+  # Deep One / ディープワン
+  # ==========================================
+
+  - DOMAIN-SUFFIX,deepone-online.com         # Deep One 游戏服务
+
+
+  # ==========================================
+  # Twinkle Star Knights / 闪耀星骑士
+  # ==========================================
+
+  - DOMAIN-SUFFIX,twinkle-star-knights.com   # 闪耀星骑士游戏服务
+
+
+  # ==========================================
   # Muv-Luv Girls Garden
-  # =========================
-  - DOMAIN-SUFFIX,muvluv-girls-garden.com
+  # ==========================================
 
-  # =========================
-  # Koihime Taisen
-  # =========================
-  - DOMAIN-SUFFIX,koihimetaisen.com
+  - DOMAIN-SUFFIX,muvluv-girls-garden.com    # Muv-Luv Girls Garden 游戏服务
 
-  # =========================
-  # 少女艺术奇谭
-  # =========================
-  - DOMAIN-SUFFIX,girlscreation-r.com
 
-  # =========================
-  # Cygames CDN
-  # =========================
-  - DOMAIN-SUFFIX,cygames.jp
+  # ==========================================
+  # Girls Creation / 少女艺术奇谭
+  # ==========================================
 
-  # =========================
-  # Azure CDN
-  # =========================
-  - DOMAIN-SUFFIX,azurefd.net
+  - DOMAIN-SUFFIX,girlscreation-r.com        # 少女艺术奇谭游戏服务
+
+
+  # ==========================================
+  # Cygames 公共服务
+  # ==========================================
+
+  - DOMAIN-SUFFIX,cygames.jp                 # Cygames 全部子域名及相关服务
+
+
+  # ==========================================
+  # BanG Dream! 少女乐团派对 / ガルパ
+  # ==========================================
+
+  - DOMAIN,api.garupa.jp                     # BanG Dream 游戏 API
+  - DOMAIN,content.garupa.jp                 # BanG Dream 游戏内容及资源服务器
