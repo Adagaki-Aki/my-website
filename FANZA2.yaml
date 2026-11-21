@@ -1,87 +1,80 @@
-
 payload:
 
   # ==========================================
   # DMM / FANZA 平台
   # ==========================================
 
-  - '+.dmm.co.jp'                         # DMM 日本官网、FANZA 及旗下服务
-  - '+.dmm.com'                           # DMM 国际域名及旗下服务
-  - '+.dmmgames.com'                      # DMM GAMES 游戏平台
-  - '+.dmmapis.com'                       # DMM API 接口
-  - '+.dmm-extension.com'                 # DMM 扩展服务
-  - '+.dmmrex.com'                        # DMM REX 相关服务
-
-  # DMM Game Player 日志
-  - '+.firebaselogging-pa.googleapis.com' # Firebase 日志上报
+- '+.dmm.co.jp'                         # DMM 日本官网、FANZA 及旗下服务
+- '+.dmm.com'                           # DMM 国际域名及旗下服务
+- '+.dmmgames.com'                      # DMM GAMES 游戏平台
+- '+.dmmapis.com'                       # DMM API 接口
+- '+.dmm-extension.com'                 # DMM 扩展服务
 
 
   # ==========================================
   # DMM / FANZA 视频服务
   # ==========================================
 
-  - '+.videomarket.jp'                    # VideoMarket 视频服务
-  - '+.p-smith.com'                       # DMM 视频相关依赖
-  - 'vmdash-cenc.akamaized.net'           # 视频加密传输 CDN
-  - 'img.vm-movie.jp'                     # 视频图片及缩略图资源
+- '+.videomarket.jp'                    # VideoMarket 视频服务
+- '+.p-smith.com'                       # DMM 视频相关依赖
+- 'vmdash-cenc.akamaized.net'           # 视频加密传输 CDN
+- 'img.vm-movie.jp'                     # 视频图片及缩略图资源
 
 
   # ==========================================
   # Princess Connect Re:Dive / 公主连结
   # ==========================================
 
-  - '+.priconne-redive.jp'                # 公主连结官方网站及游戏服务
-  - '+.api-priconne-redive.cygames.jp'    # 公主连结游戏 API
-  - 'api-common01.cygames.jp'             # Cygames 公共 API
+- '+.priconne-redive.jp'                # 公主连结官方网站及游戏服务
 
 
   # ==========================================
   # Mist Train Girls / ミストトレインガールズ
   # ==========================================
 
-  - '+.mist-train-girls.com'              # Mist Train Girls 游戏服务
-  - '+.mist-train-girls.azurefd.net'      # Mist Train Girls Azure CDN
-  - '+.fd-misttrain-prod.azurefd.net'     # Mist Train Girls 生产环境 CDN
+- '+.mist-train-girls.com'              # Mist Train Girls 游戏服务
+- '+.mist-train-girls.azurefd.net'      # Mist Train Girls Azure CDN
+- '+.fd-misttrain-prod.azurefd.net'     # Mist Train Girls 生产环境 CDN
 
 
   # ==========================================
   # Deep One / ディープワン
   # ==========================================
 
-  - '+.deepone-online.com'                # Deep One 游戏服务
+- '+.deepone-online.com'                # Deep One 游戏服务
 
 
   # ==========================================
   # Twinkle Star Knights / 闪耀星骑士
   # ==========================================
 
-  - '+.twinkle-star-knights.com'          # 闪耀星骑士游戏服务
+- '+.twinkle-star-knights.com'          # 闪耀星骑士游戏服务
 
 
   # ==========================================
   # Muv-Luv Girls Garden
   # ==========================================
 
-  - '+.muvluv-girls-garden.com'           # Muv-Luv Girls Garden 游戏服务
+- '+.muvluv-girls-garden.com'           # Muv-Luv Girls Garden 游戏服务
 
 
   # ==========================================
   # Girls Creation / 少女艺术奇谭
   # ==========================================
 
-  - '+.girlscreation-r.com'               # 少女艺术奇谭游戏服务
+- '+.girlscreation-r.com'               # 少女艺术奇谭游戏服务
 
 
   # ==========================================
   # Cygames 公共服务
   # ==========================================
 
-  - '+.cygames.jp'                       # Cygames 全部子域名及相关服务
+- '+.cygames.jp'                       # Cygames 全部子域名及相关服务
 
 
   # ==========================================
   # BanG Dream! 少女乐团派对 / ガルパ
   # ==========================================
 
-  - 'api.garupa.jp'                      # BanG Dream 游戏 API
-  - 'content.garupa.jp'                  # BanG Dream 游戏内容及资源服务器
+- 'api.garupa.jp'                      # BanG Dream 游戏 API
+- 'content.garupa.jp'                  # BanG Dream 游戏内容及资源服务器
